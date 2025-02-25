@@ -1,0 +1,111 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.error-message {
+    background: #c51b1b;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+/* Title */
+h1 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Form Group */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input Fields */
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Password Input & Visibility Container */
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* Toggle Password Visibility */
+.eye-icon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Submit Button */
+button {
+    width: 75%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #8fc0f4;
+}
+
+/* Register Link */
+.register-container {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.register-container a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}

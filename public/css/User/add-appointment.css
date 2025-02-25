@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: auto;
+}
+
+/* ======= USERNAME & EMAIL ========= */
+.user-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    min-width: 150px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.email {
+    font-size: 14px;
+    margin: 5px 0 0;
+    opacity: 0.9;
+}
+
+/* ============ ADD, VIEW, EDIT ============ */
+.appointment-container {
+    position: relative;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 30%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* ============== VIEW, EDIT ============= */
+.appointment-form {
+    background: #f5f3f3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#selectedServicesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#selectedServicesTable th,
+#selectedServicesTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#selectedServicesTable th {
+    background-color: #007bff;
+    color: white;
+}
+
+.select-time-btn {
+    margin-top: 10px;
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* ================== TIMING DROPDOWNS =============== */
+.input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+select:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}

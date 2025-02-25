@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: auto;
+}
+
+/* ======= USERNAME & EMAIL ========= */
+.user-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    min-width: 150px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.email {
+    font-size: 14px;
+    margin: 5px 0 0;
+    opacity: 0.9;
+}
+
+/* ============ MAIN Content ============ */
+.dashboard-container {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dashboard-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.add-btn {
+    background: #28a745;
+    color: white;
+}
+
+.logout-btn {
+    background: #dc3545;
+    color: white;
+}
+
+/* after clicking ADD APPOINTMENT button */
+.appointment-form {
+    background: #f5f3f3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#selectedServicesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#selectedServicesTable th,
+#selectedServicesTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#selectedServicesTable th {
+    background-color: #007bff;
+    color: white;
+}
+
+.select-time-btn {
+    margin-top: 10px;
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+/* MAIN TABLE display */
+.appointments-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.filter-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.filter-container label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+#dateFilter {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #667eea;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.view-btn {
+    background: #17a2b8;
+    color: white;
+}
+
+.edit-btn {
+    background: #ffc107;
+    color: black;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+}
